@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/jack828/validity-validator-template/issues"
   },
-  "homepage": "https://github.com/jack828/validity-validator-template#readme"
+  "homepage": "https://github.com/jack828/validity-validator-template#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "mocha": "^7.0.1",
+    "prettier": "^1.19.1"
+  }
 }
