@@ -2,7 +2,21 @@
 
 A template for bootstrapping validity style validators.
 
-To use this template, edit this file with usage, update the tests, and write a validator in `index.js`.
+## Using this template
+
+:warning: Make sure you delete this section before publishing! :warning:
+
+1. Create your new EMPTY repo, matching the validity naming convention e.g. `validity-validate-foobar`
+2. Clone down this repository to your new destination:
+    `git clone git@github.com:jack828/validity-validator-template.git validity-validate-foobar`
+3. Tell git that you want to use YOUR repo as `origin`:
+    `git remote set-url origin git@github.com:jack828/validity-validator-template.git`
+4. Push, and verify it's going to the right location.
+5. Edit the validator provided in [index.js](./index.js), not forgetting to write [complete test cases](./test/validator.test.js)!
+6. Update this README with your usage documentation, [package.json](./package.json) as appropriate.
+7. When ready, run `npm version {patch, minor, major}` and `npm publish`!
+8. ???
+9. Profit!
 
 You can use any ES2016 feature, spread, rest, await, etc thanks to Babel!
 
