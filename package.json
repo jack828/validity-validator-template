@@ -2,19 +2,6 @@
   "name": "validity-validator-template",
   "version": "0.0.0",
   "description": "Validity style validator template",
-  "main": "./dist/index.js",
-  "files": [
-    "./dist"
-  ],
-  "engines": {
-    "node": ">= 8"
-  },
-  "scripts": {
-    "lint": "eslint -f unix .",
-    "test": "mocha -R spec",
-    "build": "rimraf dist && mkdir dist && babel index.js -d dist && babel lib -d dist/lib",
-    "prepublish": "run-s lint test build"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jack828/validity-validator-template.git"
@@ -24,11 +11,24 @@
     "validator"
   ],
   "author": "Jack Burgess <jackburgess124@gmail.com>",
-  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/jack828/validity-validator-template/issues"
   },
   "homepage": "https://github.com/jack828/validity-validator-template#readme",
+  "scripts": {
+    "lint": "eslint -f unix .",
+    "test": "mocha -R spec",
+    "build": "rimraf dist && mkdir dist && babel index.js -d dist && babel lib -d dist/lib",
+    "prepublish": "run-s lint test build"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "./dist"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
+  "license": "GPL-3.0",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.8.4",

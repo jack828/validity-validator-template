@@ -13,7 +13,7 @@ A template for bootstrapping validity style validators.
     `git remote set-url origin git@github.com:jack828/validity-validator-template.git`
 4. Push, and verify it's going to the right location.
 5. Edit the validator provided in [index.js](./index.js), not forgetting to write [complete test cases](./test/validator.test.js)!
-6. Update this README with your usage documentation, [package.json](./package.json) as appropriate.
+6. Update this README with your usage documentation, and [package.json](./package.json) fields as appropriate.
 7. When ready, run `npm version {patch, minor, major}` and `npm publish`!
 8. ???
 9. Profit!
