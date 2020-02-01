@@ -1,0 +1,23 @@
+{
+  "name": "validity-validator-template",
+  "version": "0.0.0",
+  "description": "Validity style validator template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jack828/validity-validator-template.git"
+  },
+  "keywords": [
+    "validity",
+    "validator"
+  ],
+  "author": "Jack Burgess <jackburgess124@gmail.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jack828/validity-validator-template/issues"
+  },
+  "homepage": "https://github.com/jack828/validity-validator-template#readme"
+}
