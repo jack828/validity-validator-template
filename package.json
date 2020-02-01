@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Validity style validator template",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "mocha -R spec"
   },
