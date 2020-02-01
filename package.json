@@ -2,14 +2,18 @@
   "name": "validity-validator-template",
   "version": "0.0.0",
   "description": "Validity style validator template",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "files": [
-    "index.js"
+    "./dist"
   ],
+  "engines": {
+    "node": ">= 8"
+  },
   "scripts": {
     "lint": "eslint -f unix .",
     "test": "mocha -R spec",
-    "prepublish": "npm-run-all lint test"
+    "build": "rimraf dist && mkdir dist && babel index.js -d dist && babel lib -d dist/lib",
+    "prepublish": "run-s lint test build"
   },
   "repository": {
     "type": "git",
@@ -26,11 +30,17 @@
   },
   "homepage": "https://github.com/jack828/validity-validator-template#readme",
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/runtime": "^7.8.4",
+    "babel-plugin-transform-async-to-promises": "^0.8.15",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
     "mocha": "^7.0.1",
     "npm-run-all": "^4.1.5",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.1"
   }
 }
