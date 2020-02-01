@@ -15,8 +15,9 @@ A template for bootstrapping validity style validators.
 5. Edit the validator provided in [index.js](./index.js), not forgetting to write [complete test cases](./test/validator.test.js)!
 6. Update this README with your usage documentation, and [package.json](./package.json) fields as appropriate.
 7. When ready, run `npm version {patch, minor, major}` and `npm publish`!
-8. ???
-9. Profit!
+8. Submit a pull request to get your module included in the [master list](https://github.com/serby/validity#validators).
+9. ???
+10. Profit!
 
 You can use any ES2016 feature, spread, rest, await, etc thanks to Babel!
 
